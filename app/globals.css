@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #0b1f3a;
+  --orange: #f97316;
+  --stone: #f5f5f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--stone);
+  color: var(--navy);
+}
+
+::selection {
+  background: #fed7aa;
+  color: #0b1f3a;
+}
+
+.container-shell {
+  @apply mx-auto max-w-7xl px-6;
+}
+
+.section-shell {
+  @apply py-16 md:py-24;
+}
+
+.section-title {
+  @apply font-display text-3xl font-bold tracking-tight text-navy md:text-5xl;
+}
+
+.section-copy {
+  @apply mt-4 max-w-3xl text-base leading-relaxed text-stone-500 md:text-lg;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-md bg-orange px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-orange-dark;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-md border border-navy px-5 py-3 text-sm font-semibold text-navy transition-colors hover:bg-navy hover:text-white;
+}
+
+.divider-subtle {
+  @apply border-t border-navy/10;
+}
