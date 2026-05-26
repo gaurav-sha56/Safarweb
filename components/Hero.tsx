@@ -14,7 +14,7 @@ export default function Hero() {
             <a href="#contact" className="btn-primary">
               Request Pilot
             </a>
-            <a href="#implementation" className="btn-secondary" aria-label="Download SAFAR brief">
+            <a href="/Safar_Brief.pdf" download="Safar_Brief.pdf" className="btn-secondary" aria-label="Download SAFAR brief">
               Download Brief
             </a>
           </div>

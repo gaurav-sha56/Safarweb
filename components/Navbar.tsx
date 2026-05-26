@@ -6,9 +6,9 @@ import Link from "next/link";
 const navItems = [
   { label: "Features", href: "#features" },
   { label: "How It Works", href: "#how-it-works" },
-  { label: "For Fleets", href: "#for-fleets" },
   { label: "Operating Model", href: "#operating-model" },
-  { label: "Implementation", href: "#implementation" },
+  { label: "Insurance", href: "#insurance" },
+  { label: "For Fleets", href: "#for-fleets" },
   { label: "FAQ", href: "#faq" },
   { label: "Vision", href: "#vision" },
   { label: "Contact", href: "#contact" },
