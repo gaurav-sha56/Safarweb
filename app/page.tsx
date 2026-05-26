@@ -4,11 +4,11 @@ import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import WhoFor from "@/components/WhoFor";
 import Operations from "@/components/Operations";
-import Implementation from "@/components/Implementation";
 import FAQ from "@/components/FAQ";
 import ContactPanel from "@/components/ContactPanel";
 import Vision from "@/components/Vision";
 import Footer from "@/components/Footer";
+import InsuranceAdvantage from "@/components/InsuranceAdvantage";
 
 export default function Home() {
   return (
@@ -18,9 +18,9 @@ export default function Home() {
         <Hero />
         <Features />
         <HowItWorks />
-        <WhoFor />
         <Operations />
-        <Implementation />
+        <InsuranceAdvantage />
+        <WhoFor />
         <FAQ />
         <Vision />
         <ContactPanel />

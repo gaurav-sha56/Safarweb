@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     "Proactive monitoring, structured SOS workflows, and compliance-ready documentation for transport operators.",
   keywords:
     "fleet safety, mobility safety software, compliance documentation, transport operations",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
